@@ -1,2 +1,4 @@
-# HttpRundeckNotificationPlugin
-Flexible Rundeck Notification Plugin, supports different HTTP Methods
+# MyRundeckNotificationPlugin Rundeck Plugin
+
+This is a notification plugin.
+

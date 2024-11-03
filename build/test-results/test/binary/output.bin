@@ -1,0 +1,14 @@
+¢03:34:37.179 [Test worker] INFO com.plugin.httprundecknotificationplugin.HttpRundecknotificationplugin -- Sending HTTP POST request to https://httpbin.org//post
+Š03:34:38.076 [Test worker] INFO com.plugin.httprundecknotificationplugin.HttpRundecknotificationplugin -- Received HTTP response: 200 - 
+ 03:34:38.082 [Test worker] INFO com.plugin.httprundecknotificationplugin.HttpRundecknotificationplugin -- Sending HTTP GET request to https://httpbin.org//get
+Š03:34:38.729 [Test worker] INFO com.plugin.httprundecknotificationplugin.HttpRundecknotificationplugin -- Received HTTP response: 200 - 
+ 03:34:38.731 [Test worker] INFO com.plugin.httprundecknotificationplugin.HttpRundecknotificationplugin -- Sending HTTP PUT request to https://httpbin.org//put
+Š03:34:38.939 [Test worker] INFO com.plugin.httprundecknotificationplugin.HttpRundecknotificationplugin -- Received HTTP response: 200 - 
+¦03:34:38.941 [Test worker] INFO com.plugin.httprundecknotificationplugin.HttpRundecknotificationplugin -- Sending HTTP DELETE request to https://httpbin.org//delete
+Š03:34:39.067 [Test worker] INFO com.plugin.httprundecknotificationplugin.HttpRundecknotificationplugin -- Received HTTP response: 200 - 
+¤03:34:39.069 [Test worker] INFO com.plugin.httprundecknotificationplugin.HttpRundecknotificationplugin -- Sending HTTP PATCH request to https://httpbin.org//patch
+Š03:34:39.196 [Test worker] INFO com.plugin.httprundecknotificationplugin.HttpRundecknotificationplugin -- Received HTTP response: 200 - 
+¡03:34:39.197 [Test worker] INFO com.plugin.httprundecknotificationplugin.HttpRundecknotificationplugin -- Sending HTTP HEAD request to https://httpbin.org//get
+Š03:34:39.323 [Test worker] INFO com.plugin.httprundecknotificationplugin.HttpRundecknotificationplugin -- Received HTTP response: 200 - 
+›03:34:39.344 [Test worker] INFO com.plugin.httprundecknotificationplugin.HttpRundecknotificationplugin -- Sending HTTP POST request to https://invalidurl
+­03:34:42.010 [Test worker] ERROR com.plugin.httprundecknotificationplugin.HttpRundecknotificationplugin -- Error executing HTTP request: No such host is known (invalidurl)

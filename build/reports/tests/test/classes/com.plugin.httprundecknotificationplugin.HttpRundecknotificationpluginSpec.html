@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - HttpRundecknotificationpluginSpec</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>HttpRundecknotificationpluginSpec</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.plugin.httprundecknotificationplugin.html">com.plugin.httprundecknotificationplugin</a> &gt; HttpRundecknotificationpluginSpec</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">10</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">5.369s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">CONNECT request with valid URL</td>
+<td class="success">0.018s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">DELETE request with valid URL</td>
+<td class="success">0.127s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">GET request with valid URL</td>
+<td class="success">0.648s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">HEAD request with valid URL</td>
+<td class="success">0.127s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Invalid URL</td>
+<td class="success">2.667s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">OPTIONS request with valid URL</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">PATCH request with valid URL</td>
+<td class="success">0.129s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">POST request with valid URL</td>
+<td class="success">1.441s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">PUT request with valid URL</td>
+<td class="success">0.210s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">TRACE request with valid URL</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>03:34:37.179 [Test worker] INFO com.plugin.httprundecknotificationplugin.HttpRundecknotificationplugin -- Sending HTTP POST request to https://httpbin.org//post
+03:34:38.076 [Test worker] INFO com.plugin.httprundecknotificationplugin.HttpRundecknotificationplugin -- Received HTTP response: 200 - 
+03:34:38.082 [Test worker] INFO com.plugin.httprundecknotificationplugin.HttpRundecknotificationplugin -- Sending HTTP GET request to https://httpbin.org//get
+03:34:38.729 [Test worker] INFO com.plugin.httprundecknotificationplugin.HttpRundecknotificationplugin -- Received HTTP response: 200 - 
+03:34:38.731 [Test worker] INFO com.plugin.httprundecknotificationplugin.HttpRundecknotificationplugin -- Sending HTTP PUT request to https://httpbin.org//put
+03:34:38.939 [Test worker] INFO com.plugin.httprundecknotificationplugin.HttpRundecknotificationplugin -- Received HTTP response: 200 - 
+03:34:38.941 [Test worker] INFO com.plugin.httprundecknotificationplugin.HttpRundecknotificationplugin -- Sending HTTP DELETE request to https://httpbin.org//delete
+03:34:39.067 [Test worker] INFO com.plugin.httprundecknotificationplugin.HttpRundecknotificationplugin -- Received HTTP response: 200 - 
+03:34:39.069 [Test worker] INFO com.plugin.httprundecknotificationplugin.HttpRundecknotificationplugin -- Sending HTTP PATCH request to https://httpbin.org//patch
+03:34:39.196 [Test worker] INFO com.plugin.httprundecknotificationplugin.HttpRundecknotificationplugin -- Received HTTP response: 200 - 
+03:34:39.197 [Test worker] INFO com.plugin.httprundecknotificationplugin.HttpRundecknotificationplugin -- Sending HTTP HEAD request to https://httpbin.org//get
+03:34:39.323 [Test worker] INFO com.plugin.httprundecknotificationplugin.HttpRundecknotificationplugin -- Received HTTP response: 200 - 
+03:34:39.344 [Test worker] INFO com.plugin.httprundecknotificationplugin.HttpRundecknotificationplugin -- Sending HTTP POST request to https://invalidurl
+03:34:42.010 [Test worker] ERROR com.plugin.httprundecknotificationplugin.HttpRundecknotificationplugin -- Error executing HTTP request: No such host is known (invalidurl)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.8</a> at Nov 3, 2024, 3:34:42 AM</p>
+</div>
+</div>
+</body>
+</html>

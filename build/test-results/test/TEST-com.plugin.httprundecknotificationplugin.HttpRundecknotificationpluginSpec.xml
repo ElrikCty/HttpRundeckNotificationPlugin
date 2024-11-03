@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.plugin.httprundecknotificationplugin.HttpRundecknotificationpluginSpec" tests="10" skipped="0" failures="0" errors="0" timestamp="2024-11-03T06:34:36" hostname="ELRIK" time="5.371">
+  <properties/>
+  <testcase name="POST request with valid URL" classname="com.plugin.httprundecknotificationplugin.HttpRundecknotificationpluginSpec" time="1.441"/>
+  <testcase name="GET request with valid URL" classname="com.plugin.httprundecknotificationplugin.HttpRundecknotificationpluginSpec" time="0.648"/>
+  <testcase name="PUT request with valid URL" classname="com.plugin.httprundecknotificationplugin.HttpRundecknotificationpluginSpec" time="0.21"/>
+  <testcase name="DELETE request with valid URL" classname="com.plugin.httprundecknotificationplugin.HttpRundecknotificationpluginSpec" time="0.127"/>
+  <testcase name="PATCH request with valid URL" classname="com.plugin.httprundecknotificationplugin.HttpRundecknotificationpluginSpec" time="0.129"/>
+  <testcase name="HEAD request with valid URL" classname="com.plugin.httprundecknotificationplugin.HttpRundecknotificationpluginSpec" time="0.127"/>
+  <testcase name="CONNECT request with valid URL" classname="com.plugin.httprundecknotificationplugin.HttpRundecknotificationpluginSpec" time="0.018"/>
+  <testcase name="OPTIONS request with valid URL" classname="com.plugin.httprundecknotificationplugin.HttpRundecknotificationpluginSpec" time="0.001"/>
+  <testcase name="TRACE request with valid URL" classname="com.plugin.httprundecknotificationplugin.HttpRundecknotificationpluginSpec" time="0.001"/>
+  <testcase name="Invalid URL" classname="com.plugin.httprundecknotificationplugin.HttpRundecknotificationpluginSpec" time="2.667"/>
+  <system-out><![CDATA[03:34:37.179 [Test worker] INFO com.plugin.httprundecknotificationplugin.HttpRundecknotificationplugin -- Sending HTTP POST request to https://httpbin.org//post
+03:34:38.076 [Test worker] INFO com.plugin.httprundecknotificationplugin.HttpRundecknotificationplugin -- Received HTTP response: 200 - 
+03:34:38.082 [Test worker] INFO com.plugin.httprundecknotificationplugin.HttpRundecknotificationplugin -- Sending HTTP GET request to https://httpbin.org//get
+03:34:38.729 [Test worker] INFO com.plugin.httprundecknotificationplugin.HttpRundecknotificationplugin -- Received HTTP response: 200 - 
+03:34:38.731 [Test worker] INFO com.plugin.httprundecknotificationplugin.HttpRundecknotificationplugin -- Sending HTTP PUT request to https://httpbin.org//put
+03:34:38.939 [Test worker] INFO com.plugin.httprundecknotificationplugin.HttpRundecknotificationplugin -- Received HTTP response: 200 - 
+03:34:38.941 [Test worker] INFO com.plugin.httprundecknotificationplugin.HttpRundecknotificationplugin -- Sending HTTP DELETE request to https://httpbin.org//delete
+03:34:39.067 [Test worker] INFO com.plugin.httprundecknotificationplugin.HttpRundecknotificationplugin -- Received HTTP response: 200 - 
+03:34:39.069 [Test worker] INFO com.plugin.httprundecknotificationplugin.HttpRundecknotificationplugin -- Sending HTTP PATCH request to https://httpbin.org//patch
+03:34:39.196 [Test worker] INFO com.plugin.httprundecknotificationplugin.HttpRundecknotificationplugin -- Received HTTP response: 200 - 
+03:34:39.197 [Test worker] INFO com.plugin.httprundecknotificationplugin.HttpRundecknotificationplugin -- Sending HTTP HEAD request to https://httpbin.org//get
+03:34:39.323 [Test worker] INFO com.plugin.httprundecknotificationplugin.HttpRundecknotificationplugin -- Received HTTP response: 200 - 
+03:34:39.344 [Test worker] INFO com.plugin.httprundecknotificationplugin.HttpRundecknotificationplugin -- Sending HTTP POST request to https://invalidurl
+03:34:42.010 [Test worker] ERROR com.plugin.httprundecknotificationplugin.HttpRundecknotificationplugin -- Error executing HTTP request: No such host is known (invalidurl)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
